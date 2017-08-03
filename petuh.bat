@@ -11,5 +11,6 @@ reg add "HKEY_CURRENT_USER\Control Panel\Desktop" /v Wallpaper /t REG_SZ /d  D:\
 RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
 RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
 RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
-RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters
-sleep(2000)
+RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
+RUNDLL32.EXE USER32.DLL,UpdatePerUserSystemParameters ,1 ,True
+
